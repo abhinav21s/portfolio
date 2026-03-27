@@ -10,46 +10,7 @@ A modern, single-page portfolio website with a dark theme built with React and T
 - **Vitest**: Testing framework
 - **fast-check**: Property-based testing library
 
-## Project Structure
 
-```
-src/
-├── App.jsx                 # Root component
-├── index.jsx              # React DOM entry point
-├── index.css              # Tailwind directives
-├── components/            # React components
-├── hooks/                 # Custom React hooks
-├── data/                  # Data files (projects, skills)
-
-
-public/
-└── assets/                # Static assets (fonts, images)
-```
-
-## Getting Started
-
-### Install Dependencies
-
-```bash
-npm install
-```
-
-### Development Server
-
-```bash
-npm run dev
-```
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-### Run Tests
-
-```bash
-npm test
 ```
 
 ## Features
@@ -60,6 +21,4 @@ npm test
 - Property-based testing with fast-check
 - Component-based architecture
 
-## Requirements
 
-This project implements requirements specified in `.kiro/specs/dark-portfolio-website/requirements.md`
