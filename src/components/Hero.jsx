@@ -23,9 +23,11 @@ function Hero() {
       <div className="max-w-4xl mx-auto text-center">
         {/* Optional Avatar */}
         <div className="mb-8">
-          <div className="w-32 h-32 mx-auto rounded-full bg-secondary-bg border-2 border-accent flex items-center justify-center text-4xl font-bold text-accent">
-            AS
-          </div>
+          <img 
+            src="/assets/avatar.jpg" 
+            alt="Abhinav Sharma"
+            className="w-32 h-32 mx-auto rounded-full border-2 border-accent object-cover"
+          />
         </div>
 
         {/* Name - Large and Bold */}
