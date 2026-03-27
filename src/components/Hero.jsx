@@ -21,15 +21,6 @@ function Hero() {
       className="min-h-screen flex flex-col items-center justify-center px-6 py-20 relative"
     >
       <div className="max-w-4xl mx-auto text-center">
-        {/* Optional Avatar */}
-        <div className="mb-8">
-          <img 
-            src="/assets/avatar.jpg" 
-            alt="Abhinav Sharma"
-            className="w-32 h-32 mx-auto rounded-full border-2 border-accent object-cover"
-          />
-        </div>
-
         {/* Name - Large and Bold */}
         <h1 className="text-5xl sm:text-6xl md:text-[64px] lg:text-[72px] font-black font-satoshi text-primary-text mb-4 leading-tight">
           Abhinav Sharma
