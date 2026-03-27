@@ -20,7 +20,7 @@ src/
 ├── components/            # React components
 ├── hooks/                 # Custom React hooks
 ├── data/                  # Data files (projects, skills)
-└── test/                  # Test setup and utilities
+
 
 public/
 └── assets/                # Static assets (fonts, images)
