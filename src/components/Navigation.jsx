@@ -66,14 +66,14 @@ function Navigation() {
       </div>
 
       {/* Mobile menu overlay */}
-      <div className={`md:hidden fixed inset-0 top-0 bg-primary-bg transition-all duration-300 z-50 ${mobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'}`}>
-        <ul className="flex flex-col items-center justify-center gap-8 h-full">
+      <div className={`md:hidden absolute top-full left-0 right-0 bg-secondary-bg border-b border-gray-800 shadow-lg transition-all duration-300 ${mobileMenuOpen ? 'opacity-100 visible max-h-screen' : 'opacity-0 invisible max-h-0'}`}>
+        <ul className="flex flex-col py-4">
           {navLinks.map((link) => (
             <li key={link.id}>
               <a
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
-                className="text-3xl text-primary-text hover:text-accent transition-colors duration-150 font-semibold"
+                className="block px-6 py-3 text-lg text-primary-text hover:text-accent hover:bg-primary-bg transition-colors duration-150 font-medium"
               >
                 {link.label}
               </a>
