@@ -66,7 +66,7 @@ function Navigation() {
       </div>
 
       {/* Mobile menu overlay */}
-      <div className={`md:hidden fixed inset-0 top-[73px] bg-primary-bg/98 backdrop-blur-md transition-all duration-300 z-40 ${mobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
+      <div className={`md:hidden fixed inset-0 top-[73px] bg-primary-bg backdrop-blur-md transition-all duration-300 z-40 ${mobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
         <ul className="flex flex-col items-center gap-8 pt-12">
           {navLinks.map((link) => (
             <li key={link.id}>
