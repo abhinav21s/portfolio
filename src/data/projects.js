@@ -75,22 +75,22 @@ export const projects = [
     liveUrl: null
   },
   
-  {
-    id: 'project-5',
-    title: 'Golf Charity Subscription Platform',
-    description: 'A subscription-driven web app that combines golf performance tracking (Stableford scores), monthly draw-based prize pools, and automated charitable giving.',
-    techStack: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'Supabase (PostgreSQL)', 'Stripe'],
-    features: [
-      'Subscription management (monthly/yearly) with Stripe',
-      'Stableford score entry and tracking (last 5 scores)',
-      'Monthly 3-tier prize draw engine',
-      'Charity selection with automatic 10% contribution',
-      'User and admin dashboards',
-      'Email notifications',
-      'JWT authentication',
-    ],
-    role: 'Full-Stack Developer',
-    githubUrl: 'https://github.com/abhinav21s/golf-charity',
-    liveUrl: 'https://golf-charity-jet.vercel.app'
-  }
+  // {
+  //   id: 'project-5',
+  //   title: 'Golf Charity Subscription Platform',
+  //   description: 'A subscription-driven web app that combines golf performance tracking (Stableford scores), monthly draw-based prize pools, and automated charitable giving.',
+  //   techStack: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'Supabase (PostgreSQL)', 'Stripe'],
+  //   features: [
+  //     'Subscription management (monthly/yearly) with Stripe',
+  //     'Stableford score entry and tracking (last 5 scores)',
+  //     'Monthly 3-tier prize draw engine',
+  //     'Charity selection with automatic 10% contribution',
+  //     'User and admin dashboards',
+  //     'Email notifications',
+  //     'JWT authentication',
+  //   ],
+  //   role: 'Full-Stack Developer',
+  //   githubUrl: 'https://github.com/abhinav21s/golf-charity',
+  //   liveUrl: null
+  // }
 ];
